@@ -120,3 +120,18 @@ footer {
     margin-top: auto;
     
 }
+
+.order-btn {
+    padding: 12px 40px;
+    display: inline-block;
+    background-color: #8c531d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+}
