@@ -24,7 +24,7 @@
         
         <hr style="margin: 20px 0;">
 
-        <h3>اختر نوع الطلب:</h3>
+ <h3>اختر نوع الطلب:</h3>
         <select id="service" onchange="checkMeatType()" style="padding: 10px; width: 100%;">
             <option value="chicken">مع دجاج</option>
             <option value="meat">مع لحمة</option>
@@ -37,6 +37,28 @@
                 <option>روماني</option>
             </select>
         </div>
+        <h3>هل تود إضافة مشروب إلى طلبك؟</h3>
+    <select id="drink-choice" onchange="checkDrinkType()"style="padding: 10px; width: 100%;">
+        <option value="no">لا، شكراً</option>
+        <option value="yes">نعم، أريد مشروب</option>
+    </select>
+    <div id="drink-list" style="display: none; margin-top: 15px;">
+        <label>اختر المشروبات التي تفضلها:</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="cola"> كولا</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="juice">  عصير طبيعي</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="tea"> شاي</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="tea">قهوة</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="tea"> زهورات</label>
+        <br>
+        <label><input type="checkbox" name="drink" value="tea"> ماء </label>
+
+        
+    </div>
     </div>
 
     <script src="script.js"></script>
